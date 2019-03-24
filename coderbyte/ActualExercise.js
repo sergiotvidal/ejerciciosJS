@@ -1,22 +1,9 @@
-// Have the function LetterChanges(str) take the str parameter being passed and modify it using the following algorithm. Replace every letter in the string with the letter following it in the alphabet (ie. c becomes d, z becomes a). Then capitalize every vowel in this new string (a, e, i, o, u) and finally return this modified string.
+// Have the function AlphabetSoup(str) take the str string parameter being passed and return the string with the letters in alphabetical order (ie. hello becomes ehllo). Assume numbers and punctuation symbols will not be included in the string.
 
-// Sample Test Cases
-// Input:"hello*3"
+// Input:"coderbyte"
 
-// Output:"Ifmmp*3"
+// Output:"bcdeeorty"
 
-// Input:"fun times!"
+// Input:"hooplah"
 
-// Output:"gvO Ujnft!"
-
-function LetterChanges(str) {
-  str = str.split("");
-  for (let i = 0; i < str.length; i++) {
-    str[i] = str[i];
-  }
-
-  return console.log(str);
-}
-
-// function call
-LetterChanges("hello*3");
+// Output:"ahhloop"
