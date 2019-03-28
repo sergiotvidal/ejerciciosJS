@@ -1,5 +1,13 @@
-// Change the 0.0 so that product will equal 5.0.
+// Convert the assignments for a, b, and c to use the /= operator.
 
-// var product = 2.0 * 0.0
+var a = 48;
+var b = 108;
+var c = 33;
 
-var product = 2.0 * 2.5;
+// a = a / 12;
+// b = b / 4;
+// c = c / 11;
+
+a /= 12;
+b /= 4;
+c /= 11;

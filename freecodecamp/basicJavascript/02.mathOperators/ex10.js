@@ -1,5 +1,3 @@
-// Change the 0 so that the quotient is equal to 2.
+// Set remainder equal to the remainder of 11 divided by 3 using the remainder (%) operator.
 
-// var quotient = 66 / 0;
-
-var quotient = 66 / 33;
+var remainder = 11 % 3;

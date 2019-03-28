@@ -1,7 +1,13 @@
-// Change the code to use the -- operator on myVar.
+// Convert the assignments for a, b, and c to use the -= operator.
 
-var myVar = 11;
+var a = 11;
+var b = 9;
+var c = 3;
 
-// myVar = myVar - 1
+// a = a - 6;
+// b = b - 15;
+// c = c - 1;
 
-myVar--;
+a -= 6;
+b -= 15;
+c -= 1;

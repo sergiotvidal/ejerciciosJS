@@ -1,7 +1,13 @@
-// Change the code to use the ++ operator on myVar.
+// Convert the assignments for a, b, and c to use the += operator.
 
-var myVar = 87;
+var a = 3;
+var b = 17;
+var c = 12;
 
-// myVar = myVar + 1
+// a = a + 12;
+// b = 9 + b;
+// c = c + 7;
 
-myVar++;
+a += 12;
+b += 9;
+c += 7;
